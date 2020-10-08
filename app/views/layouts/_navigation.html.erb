@@ -1,7 +1,5 @@
 <div class="ui tiny menu margin-top">
-  <a class="item">
-    Home
-  </a>
+  <%= link_to "Chatroom", root_path, class: "item" %>
   <a class="item">
     Messages
   </a>
@@ -10,7 +8,7 @@
       Account <i class="dropdown icon"></i>
       <div class="menu">
         <a class="item">Logout</a>
-        <a class="item">Login</a>
+         <%= link_to "Login", login_path, class: "item" %>
         <a class="item">Signup</a>
       </div>
     </div>
