@@ -1,1 +1,59 @@
-<h1>This is the root path</h1>
+<h3 class="ui center medium aligned icon header">
+  <%=image_tag("chatroom.png")%><br>
+  <p class="margin-top">say something</p>
+</h3>
+<div class="ui two column grid">
+  <div class="four wide column stackable">
+    <div class="ui fluid raised card chatbox">
+      <div class="content center-div">
+        <div class="ui vertical menu">
+          <a class="active teal item">
+            Inbox
+            <div class="ui teal left pointing label">1</div>
+          </a>
+          <a class="item">
+            Spam
+            <div class="ui label">51</div>
+          </a>
+          <a class="item">
+            Updates
+            <div class="ui label">1</div>
+          </a>
+          <div class="item">
+            <div class="ui transparent icon input">
+              <input type="text" placeholder="Search mail...">
+              <i class="search icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="twelve wide column">
+    <div class="ui fluid raised card chatbox">
+      <div class="content">
+        <div class="ui comments">
+          <div class="comment">
+            <div class="event">
+              <div class="content">
+                <div class="summary">
+                  <em>Christian Rocha:</em> Test message
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra content">
+            <form class="ui reply form">
+            <div class="field">
+              <div class="ui fluid icon input">
+                <input type="text" placeholder="Enter a message...">
+                <i class="bordered inverted violet icon edit"></i>
+              </div>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
